@@ -17,6 +17,8 @@ public class Basic_test {
 		driver = new ChromeDriver();
 		//Go to URL
 		driver.get(SiteURL);
+		
+		driver.close();
 				
 	}
 
